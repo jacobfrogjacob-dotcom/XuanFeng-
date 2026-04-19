@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>玄鋒電競 | XUAN FENG ESPORTS</title>
+    <style>
+        /* 深色電競背景與環境光 */
+        body {
+            margin: 0;
+            padding: 0;
+            background: #050505;
+            background-image: radial-gradient(circle at center, #151515 0%, #000 100%);
+            color: #ffffff;
+            font-family: 'Segoe UI', "Microsoft JhengHei", sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 400px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* 標題設計 */
+        .header {
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            letter-spacing: 6px;
+            margin: 0;
+            font-weight: 900;
+            background: linear-gradient(to bottom, #ffffff 50%, #666 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 0 10px rgba(255,255,255,0.2));
+        }
+
+        .brand-sub {
+            font-size: 13px;
+            color: #00d2ff;
+            letter-spacing: 4px;
+            margin-top: 8px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* 連結群組 */
+        .links-group {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        /* 按鈕基礎樣式 */
+        .link-card {
+            display: block;
+            text-decoration: none;
+            padding: 16px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            backdrop-filter: blur(8px);
+        }
+
+        .link-card:hover {
+            transform: scale(1.05);
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        /* 各平台專屬霓虹色 */
+        .btn-tiktok:hover { border-color: #ff0050; box-shadow: 0 0 20px rgba(255, 0, 80, 0.5); }
+        .btn-line:hover { border-color: #00b900; color: #00b900; box-shadow: 0 0 20px rgba(0, 185, 0, 0.5); }
+        .btn-youtube:hover { border-color: #ff0000; color: #ff4444; box-shadow: 0 0 20px rgba(255, 0, 0, 0.5); }
+        .btn-discord:hover { border-color: #5865f2; color: #5865f2; box-shadow: 0 0 20px rgba(88, 101, 242, 0.5); }
+
+        /* 底部文字 */
+        .footer {
+            margin-top: 50px;
+            font-size: 11px;
+            color: #444;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>玄鋒電競</h1>
+            <div class="brand-sub">XUAN FENG ESPORTS</div>
+        </div>
+
+        <div class="links-group">
+            <a href="https://www.tiktok.com/@xuenfeng_xu666_?_r=1" class="link-card btn-tiktok" target="_blank">
+                TIKTOK 官方頻道
+            </a>
+
+            <a href="https://lin.ee/rTNT2B6" class="link-card btn-line" target="_blank">
+                LINE 官方帳號
+            </a>
+
+            <a href="https://youtube.com/@xfg-mtd?si=WVPbE8pA1G5B-Unt" class="link-card btn-youtube" target="_blank">
+                YOUTUBE 精彩賽事
+            </a>
+
+            <a href="https://discord.gg/vCcFpKuzR" class="link-card btn-discord" target="_blank">
+                DISCORD 反饋大群
+            </a>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 XUAN FENG ESPORTS.
+        </div>
+    </div>
+
+</body>
+</html>
